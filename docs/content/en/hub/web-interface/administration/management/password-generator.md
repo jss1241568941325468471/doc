@@ -12,7 +12,7 @@ eleventyComputed:
 ---
 The ***Password Generator*** allows to create random passwords that are difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.
 
-<br>You can create and force a [***Password Templates***](https://docs.devolutions.net/server/web-interface/administration/templates/password-templates/) to follow your organization secure policies.
+<br>You can create and force a [***Password Templates***](/hub/web-interface/administration/management/password-templates/) to follow your organization secure policies.
 
 SCREENSHOT
 
