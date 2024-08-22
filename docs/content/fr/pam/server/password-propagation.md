@@ -40,7 +40,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
            Il est possible de sélectionner plusieurs configurations.
            {% endsnippet %}
 21. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre. ![Bouton OK](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png) {% snippet, "badgeInfo" %}
-           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis sur ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le nouveau fichier créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
+           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis sur ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le fichier nouvellement créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
            {% endsnippet %}
 
 ### Créer un modèle PowerShell
@@ -52,8 +52,8 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 5. Dans l'onglet Général, ajouter un ***Nom*** pour ce modèle. {% snippet, "badgeInfo" %}
          Il est possible d'ajouter une ***Description***. L'icône peut également être modifiée en cliquant dessus.
          {% endsnippet %}
-6. Dans l'onglet ***Propriétés de Propagation***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter une propriété***. Les variables ajoutées dans cet onglet doivent représenter l'URL de la machine distante (c'est-à-dire, ComputerIP, Username, Password et RootFolder). ![Propriétés de Propagation](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0113.png)
-7. Dans l'onglet ***Mappage des Propriétés***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter une propriété***. Les variables ajoutées dans cet onglet doivent représenter le ***Mappage des Champs*** de la machine distante (c'est-à-dire, FileName et FilePath). ![Mappage des Propriétés](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0114.png)
+6. Dans l'onglet ***Propriétés de Propagation***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter propriété***. Les variables ajoutées dans cet onglet doivent représenter l'URL vers la machine distante (c'est-à-dire, ComputerIP, Username, Password et RootFolder). ![Propriétés de Propagation](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0113.png)
+7. Dans l'onglet ***Mappage des Propriétés***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter propriété***. Les variables ajoutées dans cet onglet doivent représenter le ***Mappage des Champs*** de la machine distante (c'est-à-dire, FileName et FilePath). ![Mappage des Propriétés](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0114.png)
 8. Dans l'onglet ***Script***, les variables précédentes apparaissent ainsi que la variable ***NewPassword***. Cette nouvelle variable contiendra le nouveau mot de passe pour le compte lors de l'exécution du script.
 9. Cliquer sur ***Générer le script de base***. ![Générer le script de base](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0115.png) {% snippet, "badgeInfo" %}
          Cliquer sur ***Modifier*** pour modifier ou ajouter au script.
@@ -74,4 +74,6 @@ La section suivante décrit les propriétés de la fonctionnalité de ***Propaga
 
 ### Propriétés
 
-\| Option                         \| Description                                                              \| \|--------------------------------\|--------------------------------------------------------------------------\| \| ***Ordinateurs***                \| ***Hérité***: Hérite de la liste des ordinateurs du dossier parent.<br>***Personnalisé***: Définir une liste personnalisée d'ordinateurs.<br>***Personnalisé + Hérité***: Hérite de la liste des ordinateurs du dossier parent et définir une liste personnalisée d'ordinateurs. \| \| ***Nom de l'ordinateur***            \| Nom de chaque ordinateur sur lequel la propagation du mot de passe aura lieu. \| \| ***Parcourir les conteneurs de domaine*** \| Parcourir le domaine pour sélectionner les ordinateurs.                               \|
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Ordinateurs</strong></p></td><td><ul><li><p><em><strong>Hérité</strong></em>: hérite de la liste des ordinateurs du dossier parent.</p></li><li><p><strong>Personnalisé</strong>: définir une liste personnalisée d'ordinateurs.</p></li><li><p><strong>Personnalisé + Hérité</strong>: hérite de la liste des ordinateurs du dossier parent et définit une liste personnalisée d'ordinateurs.</p></li></ul></td></tr><tr><td><p><strong>Nom de l'ordinateur</strong></p></td><td><p>Nom de chaque ordinateur sur lequel la propagation du mot de passe aura lieu.</p></td></tr><tr><td><p><strong>Parcourir les conteneurs de domaine</strong></p></td><td><p>Parcourir le domaine pour sélectionner les ordinateurs.</p></td></tr></tbody></table>
+
+&nbsp;
