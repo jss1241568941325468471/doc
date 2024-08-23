@@ -26,6 +26,6 @@ Browse the computer for the .json template file previously downloaded from the p
 
 ![Importing a .json template file](https://cdnweb.devolutions.net/docs/DVLS4044_2024_2.png "Importing a .json template file")
 
-The template's name, description, properties, property mapping, and script itself can then be modified if need be. When this is done – or if it is not neccessary – click on ***Save***.
+The template's name, description, properties, property mapping, and script itself can then be modified if need be. When this is done – or if it is not neccessary – click on ***Save*** to complete the template's importation.
 
 ![Propagation template final settings](https://cdnweb.devolutions.net/docs/DVLS4045_2024_2.png "Propagation template final settings")
