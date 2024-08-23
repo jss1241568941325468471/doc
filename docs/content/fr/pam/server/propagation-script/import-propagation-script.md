@@ -26,6 +26,6 @@ Parcourir l'ordinateur pour le fichier modèle .json précédemment télécharg�
 
 ![Importation d'un fichier modèle .json](https://cdnweb.devolutions.net/docs/DVLS4044_2024_2.png "Importation d'un fichier modèle .json")
 
-Le nom du modèle, sa description, ses propriétés, le mappage des propriétés et le script lui-même peuvent ensuite être modifiés si nécessaire. Lorsque cela est fait – ou si ce n'est pas nécessaire – cliquer sur ***Enregistrer***.
+Le nom du modèle, sa description, ses propriétés, le mapping des propriétés et le script lui-même peuvent ensuite être modifiés si nécessaire. Lorsque cela est fait – ou si ce n'est pas nécessaire – cliquer sur ***Enregistrer*** pour compléter l'importation du modèle.
 
 ![Paramètres finaux du modèle de propagation](https://cdnweb.devolutions.net/docs/DVLS4045_2024_2.png "Paramètres finaux du modèle de propagation")
