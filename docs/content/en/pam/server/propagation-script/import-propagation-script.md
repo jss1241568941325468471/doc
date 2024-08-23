@@ -6,3 +6,10 @@ eleventyComputed:
   status:
   keywords:
 ---
+Devolutions offers [pre-configured propagation script templates on its GitHub repository](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts). These are free to download and modify, and can help administrators propagate scripts without having to create complex custom scripts and templates.
+
+{% snippet, "badgeCaution" %}Note that every propagation template provided by Devolutions contains a short explanation of what it does and how to use it in its GitHub folder.{% endsnippet %}
+
+## Importing a template into {% var, "DVLS" false %}
+
+&nbsp;
