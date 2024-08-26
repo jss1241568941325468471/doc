@@ -23,3 +23,9 @@ Une fenêtre devrait s'ouvrir contenant les modèles précédemment télécharg�
 Dans l'onglet ***Général***, entrer un nom pour la configuration :
 
 ![Nom de la configuration](https://cdnweb.devolutions.net/docs/DVLS4048_2024_2.png "Nom de la configuration")
+
+Remplir les informations requises concernant la machine distante dans l'onglet ***Propriétés de propagation*** :
+
+&nbsp;
+
+&nbsp;
