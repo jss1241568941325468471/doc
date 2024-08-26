@@ -6,7 +6,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-Whether a template has been created manually or downloaded on Devolutions' GitHub repository, a propagation configuration must be enforced afterward.
+Whether a template has been created manually or [downloaded from Devolutions' GitHub repository](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts), a propagation configuration must be enforced afterward.
 
 ## Configuration
 
@@ -22,10 +22,10 @@ A window should open containing the previously downloaded or created templates. 
 
 In the ***General*** tab, enter a name for the configuration:
 
-![Configuration's name](https://cdnweb.devolutions.net/docs/DVLS4048_2024_2.png "Configuration's name")
+![General tab](https://cdnweb.devolutions.net/docs/DVLS4052_2024_2.png "General tab")
 
-Fill the required information about the remote machine in the ***Propagation properties*** tab:
+Fill in the required informations about the remote machine in the ***Propagation properties*** tab:
 
-&nbsp;
+<table><thead><tr><th><p>FIELD</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>DevolutionsServerUrl</p></td><td><p></p></td></tr><tr><td><p>ApplicationKey</p></td><td><p></p></td></tr><tr><td><p>ApplicationSecret</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Id</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Name</p></td><td><p></p></td></tr></tbody></table>
 
 &nbsp;
