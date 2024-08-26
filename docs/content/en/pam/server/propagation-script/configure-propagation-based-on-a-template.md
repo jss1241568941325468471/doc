@@ -23,3 +23,9 @@ A window should open containing the previously downloaded or created templates. 
 In the ***General*** tab, enter a name for the configuration:
 
 ![Configuration's name](https://cdnweb.devolutions.net/docs/DVLS4048_2024_2.png "Configuration's name")
+
+Fill the required information about the remote machine in the ***Propagation properties*** tab:
+
+&nbsp;
+
+&nbsp;
