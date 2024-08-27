@@ -12,15 +12,14 @@ The ***Licenses*** section, located in ***Administration*** – ***Licenses***, 
 Here are the different license types that can be added in {% var, "DHUBB" false %}:
 
 * [{% var, "RDM" false %}](https://docs.devolutions.net/rdm/overview/what-is-rdm/)
-* [{% var, "DVLS" false %}](https://docs.devolutions.net/server/overview/what-is-server/)
 * [{% var, "DHUBB" false %}](https://docs.devolutions.net/hub/overview/what-is-hub/)
 * {% var, "DLAUNCHER" false %}
 * [{% var, "DPAM" false %}](https://docs.devolutions.net/pam/overview/what-is-pam/) module
 * [{% var, "DGW" false %}](https://docs.devolutions.net/dgw/overview/what-is-dgw/) module
 
   {% snippet, "badgeInfo" %}
-  A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
-  {% endsnippet %}
+    A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
+    {% endsnippet %}
 
 ### Assign product licenses
 
