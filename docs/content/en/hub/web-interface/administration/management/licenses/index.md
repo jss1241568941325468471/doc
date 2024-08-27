@@ -21,3 +21,15 @@ Here are the different license types that can be added in {% var, "DHUBB" false 
   {% snippet, "badgeInfo" %}
   A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
   {% endsnippet %}
+
+### Assign product licenses
+
+Here are the few neccessary steps to assign Devolutions product licenses to users in {% var, "DHUBB" false %}:
+
+1\. Go to ***Administration*** – ***Licenses***, and click on the ***Edit*** button next to the desired license.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
