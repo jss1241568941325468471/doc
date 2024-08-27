@@ -18,16 +18,18 @@ Here are the different license types that can be added in {% var, "DHUBB" false 
 * [{% var, "DGW" false %}](https://docs.devolutions.net/dgw/overview/what-is-dgw/) module
 
   {% snippet, "badgeInfo" %}
-    A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
-    {% endsnippet %}
+        A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
+        {% endsnippet %}
 
 ### Assign product licenses
 
-Here are the few neccessary steps to assign Devolutions product licenses to users in {% var, "DHUBB" false %}:
+Here are the steps to assign Devolutions product licenses to users in {% var, "DHUBB" false %}:
 
 1\. Go to ***Administration*** – ***Licenses***, and click on the ***Edit*** button next to the desired license.
 
-&nbsp;
+![Edit button](https://cdnweb.devolutions.net/docs/HUBB4014_2024_2.png "Edit button")
+
+2\. Head over to the ***Assigned to*** tabs, select the user(s) to assign and click on ***Update***.
 
 &nbsp;
 
