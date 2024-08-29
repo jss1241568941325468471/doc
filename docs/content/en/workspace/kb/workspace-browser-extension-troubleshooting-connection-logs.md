@@ -4,7 +4,7 @@ eleventyComputed:
   title: '{{ en.WBEX }} troubleshooting connection logs'
   description:
 ---
-When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs to provide more information to our engineering department, please follow these steps according your browser:
+When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs to provide more information to our engineering department, please follow these steps according your browser.
 
 ### Brave
 
