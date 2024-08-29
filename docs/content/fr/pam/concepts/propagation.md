@@ -3,9 +3,9 @@ _schema: défaut
 eleventyComputed:
   title: Propagation
   description: >-
-    *La propagation est une fonctionnalité dans un fournisseur de {{ fr.DPAM }} qui sert de quatrième et dernière action qu'un fournisseur effectue lors de la rotation des mots de passe.
+    *La propagation est une fonctionnalité dans un fournisseur {{ fr.DPAM }} qui sert de quatrième et dernière action qu'un fournisseur effectue lors de la rotation des mots de passe.
 ---
-***Propagation***, également connue sous le nom de propagation de mot de passe ou parfois appelée scripts de propagation, est une fonctionnalité dans un fournisseur de {{ fr.DPAM }} qui sert de quatrième et dernière action qu'un fournisseur effectue lors de la rotation des mots de passe.
+***Propagation***, également connue sous le nom de propagation de mot de passe ou parfois appelée scripts de propagation, est une fonctionnalité dans un fournisseur {{ fr.DPAM }} qui sert de quatrième et dernière action qu'un fournisseur effectue lors de la rotation des mots de passe.
 
 La propagation est une action optionnelle mise en œuvre sous forme de script PowerShell personnalisable par l'utilisateur qui s'exécute comme dernière étape dans la séquence d'actions du fournisseur de détection, de pulsation et de rotation des mots de passe. Son objectif est flexible, lui permettant d'effectuer des tâches de suivi qui doivent se produire après qu'un mot de passe a été changé.
 

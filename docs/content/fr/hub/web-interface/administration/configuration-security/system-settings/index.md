@@ -12,26 +12,26 @@ Dans la section ***Général*** des ***Paramètres système***, gérer les param
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Envoyer le mot de passe temporaire par courriel  | Sélectionner comment le mot de passe temporaire est envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d'une invitation dans {{ fr.DHUBB }} :<ul><li>***Demander*** : Lors de la création d'un nouveau {{ fr.DA }}, une invite apparaîtra pour envoyer ou non le mot de passe temporaire de l'utilisateur par courriel.</li><li>***Envoyer*** : Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs recevront leur mot de passe temporaire par courriel.</li><li>***Ne pas envoyer*** : Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs ne recevront pas leur mot de passe temporaire par courriel. À ce moment-là, une invite apparaîtra avec leur mot de passe temporaire. Vous pouvez alors décider comment fournir cette information critique à vos utilisateurs.</li></ul> |
+| Envoyer le mot de passe temporaire par courriel  | Sélectionner comment le mot de passe temporaire est envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d'une invitation dans {{ fr.DHUBB }}:<ul><li>***Demander***: Lors de la création d'un nouveau {{ fr.DA }}, une invite apparaîtra pour envoyer ou non le mot de passe temporaire de l'utilisateur par courriel.</li><li>***Envoyer***: Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs recevront leurs mots de passe temporaires par courriel.</li><li>***Ne pas envoyer***: Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs ne recevront pas leur mot de passe temporaire par courriel. À ce moment-là, une invite apparaîtra avec leur mot de passe temporaire. Vous pouvez alors décider comment fournir cette information critique à vos utilisateurs.</li></ul> |
 | Bloquer le trafic Tor | Bloque le trafic Internet provenant du réseau Tor. |
 | Permettre aux utilisateurs de soumettre un billet de support | Active l'option pour les utilisateurs de soumettre un billet à l'équipe de support. |
-| Marquer automatiquement comme "Fermé" après X jours | Marque les sessions ouvertes comme fermées après un certain nombre de jours. |
-| Profils d'interface utilisateur | Sélectionner le profil d'interface utilisateur par défaut qui sera attribué aux utilisateurs entre ***Professionnel de l'informatique***, ***Utilisateur d'affaires***, ou le ***Défaut***. |
+| "Marquer comme fermé" automatiquement après X jours | Marque les sessions ouvertes comme fermées après un certain nombre de jours. |
+| Profils d'interface utilisateur | Sélectionner le profil d'interface utilisateur par défaut qui sera attribué aux utilisateurs entre ***professionnel de l'informatique***, ***utilisateur d'affaires***, ou le ***Défaut***. |
 
 ## {{ fr.VLT_MAJ  }}
 
-Dans la section {{ fr.VLT  }} des ***Paramètres système***, gérer les paramètres liés à l'utilisateur {{ fr.VTL }} et à la visibilité. 
+Dans la section {{ fr.VLT  }} des ***Paramètres système***, gérer les paramètres liés à l'{{ fr.VTL }} des utilisateurs et à la visibilité. 
 
 ![Administration – Paramètres système – {{ fr.VLT_MAJ  }}](https://cdnweb.devolutions.net/docs/HUBB4019_2024_2.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Permettre {{ fr.UVLT_MAJ   }}         | Permettre {{ fr.UVLT_MAJ }} pour les utilisateurs.                           |
-| Public -  Permettre la demande d'accès    | Définir la visibilité {{ fr.VLT   }} sur public. Chaque utilisateur peut voir les {{ fr.VLT   }} publics, mais seuls ceux qui ont demandé l'accès peuvent les utiliser.  |
-| Privé -  Sur invitation uniquement        | Définir la visibilité {{ fr.VLT  }} sur privé. Seuls les utilisateurs avec une invitation peuvent les voir et les utiliser. |
+| Autoriser {{ fr.UVLT_MAJ   }}         | Autoriser {{ fr.UVLT_MAJ }} pour les utilisateurs.                           |
+| Public -  Autoriser la demande d'accès    | Définir la visibilité du {{ fr.VLT   }} sur public. Chaque utilisateur peut voir les {{ fr.VLT   }} publics, mais seuls ceux qui ont demandé l'accès peuvent les utiliser.  |
+| Privé -  Sur invitation uniquement        | Définir la visibilité du {{ fr.VLT  }} sur privé. Seuls les utilisateurs avec une invitation peuvent les voir et les utiliser. |
 
 {% snippet, "badgeHelp" %}
-Notez que la visibilité {{ fr.VLT   }} peut également être modifiée pour chaque {{ fr.VLT   }} individuellement. Voir [accès {{ fr.VLT_MAJ   }} dans {{ fr.DHUBB }}](https://docs.devolutions.net/hub/web-interface/vault-access/#individual-vault-visibility) pour plus d'informations.
+Notez que la visibilité du {{ fr.VLT   }} peut également être modifiée pour chaque {{ fr.VLT   }} individuellement. Voir [{{ fr.VLT_MAJ   }} accès dans {{ fr.DHUBB }}](https://docs.devolutions.net/hub/web-interface/vault-access/#individual-vault-visibility) pour plus d'informations.
 {% endsnippet %}
 
 ## RDM et outils connexes
@@ -52,5 +52,5 @@ Dans la section ***Avancé*** des ***Paramètres système***, gérer les paramè
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Permettre l'autocomplétion {{ fr.WBEX }}                 | Permettre à {{ fr.WBEX }} de remplir automatiquement les identifiants.                                                        |
+| Autoriser l'autocomplétion {{ fr.WBEX }}                 | Autoriser {{ fr.WBEX }} à remplir automatiquement les identifiants.                                                        |
 | Permettre à l'utilisateur d'envoyer des messages et des mots de passe de manière sécurisée via Devolutions Send   | Les utilisateurs peuvent envoyer des messages et des mots de passe chiffrés en utilisant [Devolutions Send](/hub/send/).

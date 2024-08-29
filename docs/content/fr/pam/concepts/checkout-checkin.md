@@ -3,7 +3,7 @@ _schema: default
 eleventyComputed:
   title: Restitution/Réservation
   description: >-
-    Dans le contexte des comptes privilégiés (PAs), la restitution et la réservation se réfèrent à la réservation d'un PA pour l'usage exclusif d'un utilisateur pour une période déterminée.
+    Dans le contexte des comptes privilégiés (CP), la restitution et la réservation se réfèrent à réserver un CP pour l'usage exclusif d'un utilisateur pour une période déterminée.
 ---
 ***Réservation*** et ***restitution*** se réfèrent à réserver, ou verrouiller, un compte privilégié pour l'usage exclusif d'un utilisateur pour une période déterminée. Typiquement, une rotation de mot de passe se produit lors de la restitution, libérant le verrou exclusif. Ce processus peut se produire :
 

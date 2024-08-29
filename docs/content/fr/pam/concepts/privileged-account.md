@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Compte privilégié
-  description: Un compte privilégié (PA) dans Devolutions PAM est un compte utilisé pour effectuer des actions à privilèges élevés.
+  description: Un compte privilégié (PA) dans Devolutions PAM est un compte utilisé pour effectuer des actions hautement privilégiées.
 ---
-Un ***compte privilégié*** (PA) dans Devolutions PAM est un compte utilisé pour effectuer des actions à privilèges élevés. En raison de leur large accès, les cibles traditionnelles sont l'infrastructure TI, les services et les comptes administrateurs. Cependant, les utilisateurs non-TI ayant accès à des données ou processus sensibles, tels que ceux dans les domaines juridique et financier, sont également considérés comme hautement privilégiés.
+Un ***compte privilégié*** (PA) dans Devolutions PAM est un compte utilisé pour effectuer des actions hautement privilégiées. En raison de leur large accès, les cibles traditionnelles sont les infrastructures TI, les services et les comptes administrateurs. Cependant, les utilisateurs non-TI ayant accès à des données ou processus sensibles, tels que ceux dans les domaines juridique et financier, sont également considérés comme hautement privilégiés.
 
 ### Rubriques connexes
 * [Comptes privilégiés ({{ fr.DVLS }})](/pam/server/accounts/)

@@ -9,6 +9,7 @@ eleventyComputed:
   keywords:
     - Tunnel SSH
 ---
+
 Le ***Tunnel {{ fr.DGW }}*** peut répondre à des besoins similaires au réacheminement de port SSH/tunnel SSH, mais il ne nécessite rien d'autre que {{ fr.DGW }} lui-même. Il est utile lors de l'utilisation de connexions qui ne sont pas prises en charge nativement dans {{ fr.RDM }} via le {{ fr.DGW }}. L'entrée se trouve sous ***Nouvelle Entrée*** – ***Session*** – ***Connexions à distance***. {% snippet, "badgeInfo" %}
 {{ fr.DGW }} doit être configuré dans la source de données {{ fr.RDM }} puis configuré via [héritage](/rdm/kb/rdm-windows/knowledge-base/inheritance/) ou sur la connexion elle-même. L'option se trouve sous ***Propriétés*** – ***Connexion*** – ***VPN/SSH/Passerelle*** – ***VPN/SSH/Passerelle*** – ***Général***.
 {% endsnippet %}
@@ -31,13 +32,13 @@ Si l'***Écouteur*** est réglé sur 0.0.0.0, il acceptera les connexions de n'i
 
 Les écouteurs ***HTTP*** et ***SOCKS5*** utiliseront également les ***Règles d'autorisation*** pour spécifier les destinations autorisées, tout ce qui n'est pas sur la liste blanche sera refusé.
 
-Des ***Filtres de cible*** peuvent être spécifiés en utilisant des adresses IP ou des noms d'hôte. Les deux peuvent contenir des caractères génériques. Chaque ***Filtre de cible*** doit spécifier explicitement un port de destination. Laisser le port par défaut à '0' entraînera une erreur lors de la tentative d'enregistrement du filtre. ![Default](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0163.png)
+Des ***filtres de cible*** peuvent être spécifiés en utilisant des adresses IP ou des noms d'hôte. Les deux peuvent contenir des caractères génériques. Chaque ***filtre de cible*** doit spécifier explicitement un port de destination. Laisser le port par défaut à '0' entraînera une erreur lors de la tentative d'enregistrement du filtre. ![Default](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0163.png)
 
 #### Exemples de filtres de cible valides
 
-<table><thead><tr><th><p>Filtre de cible</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p><code>windjammer.net:80</code></p></td><td><p>Autorise le trafic HTTP vers le nom d'hôte windjammer.net.</p></td></tr><tr><td><p><code>*.windjammer.net:443</code></p></td><td><p>Autorise le trafic HTTPS vers n'importe quel sous-domaine de windjammer.net mais pas vers windjammer.net directement.</p></td></tr><tr><td><p><code>192.168.0.*:22</code></p></td><td><p>Autorise le trafic SSH vers n'importe quelle adresse IP entre 192.168.0.0 et 192.168.0.255.</p></td></tr><tr><td><p><code>*:3389</code></p></td><td><p>Autorise le trafic RDP vers n'importe quel point de terminaison accessible par le {{ fr.DGW }}.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>Filtre de cible</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p><code>windjammer.net:80</code></p></td><td><p>Autorise le trafic HTTP vers le nom d'hôte windjammer.net.</p></td></tr><tr><td><p><code>*.windjammer.net:443</code></p></td><td><p>Autorise le trafic HTTPS vers n'importe quel sous-domaine de windjammer.net mais pas vers windjammer.net directement.</p></td></tr><tr><td><p><code>192.168.0.*:22</code></p></td><td><p>Autorise le trafic SSH vers n'importe quelle adresse IP entre 192.168.0.0 et 192.168.0.255.</p></td></tr><tr><td><p><code>*:3389</code></p></td><td><p>Autorise le trafic RDP vers n'importe quel point d'accès atteignable par le {{ fr.DGW }}.</p></td></tr></tbody></table>
 
-Il est possible d'ajouter plusieurs ***Filtres de cible*** à votre entrée adaptés à votre utilisation prévue du tunnel. Par exemple, il est possible d'ajouter le même nom d'hôte plusieurs fois mais avec des ports différents, comme 80 et 443, pour permettre à la fois le trafic HTTP et HTTPS.
+Il est possible d'ajouter plusieurs ***filtres de cible*** à votre entrée en fonction de votre utilisation prévue du tunnel. Par exemple, il est possible d'ajouter plusieurs fois le même nom d'hôte mais avec des ports différents, comme 80 et 443, pour permettre à la fois le trafic HTTP et HTTPS.
 
 ### Utilisation du Tunnel {{ fr.DGW }} en dehors de {{ fr.RDM }}
 

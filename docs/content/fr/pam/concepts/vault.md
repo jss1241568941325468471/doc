@@ -5,7 +5,7 @@ eleventyComputed:
   description: >-
     Un {{ fr.VLT }} dans Devolutions PAM est le principal type de compartiment pour le stockage des unités de la plateforme.
 ---
-Conçu pour stocker des comptes privilégiés de manière sécurisée, les ***{{ fr.VLT }}s*** dans Devolutions PAM séparent logiquement les comptes privilégiés. Les {{ fr.VLT_MAJ }}s offrent un contrôle d'accès robuste, des fonctionnalités organisationnelles et une auditabilité pour garantir la protection et la gestion des données.
+Conçu pour stocker les comptes privilégiés de manière sécurisée, les ***{{ fr.VLT }}s*** dans Devolutions PAM séparent logiquement les comptes privilégiés. Les {{ fr.VLT_MAJ }}s offrent un contrôle d'accès robuste, des fonctionnalités organisationnelles et une auditabilité pour garantir la protection et la gestion des données.
 
 ### Alias
 
@@ -13,9 +13,9 @@ Conçu pour stocker des comptes privilégiés de manière sécurisée, les ***{{
 
 ### Sujets connexes
 
-* [Commencer - Ajouter un PAM {{ fr.VLT }} dans {{ fr.DVLS }}](/pam/server/getting-started/#add-a-pam-vault)
-* [PAM {{ fr.VLT }}s dans {{ fr.DHUBB }}](/pam/hub/pam-vaults/)
-* [PAM {{ fr.VLT }}s dans {{ variables.DVLS.fr }}](/pam/server/pam-vaults/)
+* [Commencer - Ajouter un {{ fr.VLT }} PAM dans {{ fr.DVLS }}](/pam/server/getting-started/#add-a-pam-vault)
+* [{{ fr.VLT }}s PAM dans {{ fr.DHUBB }}](/pam/hub/pam-vaults/)
+* [{{ fr.VLT }}s PAM dans {{ variables.DVLS.fr }}](/pam/server/pam-vaults/)
 
 ### Voir aussi
 
