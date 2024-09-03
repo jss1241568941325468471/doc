@@ -10,7 +10,7 @@ eleventyComputed:
    Si la base de données est créée en utilisant un administrateur système (exemple : SA), nous recommandons de garder cet utilisateur uniquement pour la création de la base de données et la [mise à niveau de la base de données](/rdm/windows/installation/database-upgrade/). Un compte administrateur {{ fr.RDM }} doit être créé en premier. Ensuite, les utilisateurs réguliers sont créés avec ce compte administrateur.
    {% endsnippet %}
 
-![Créer un compte administrateur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3415.png)
+![Créer un compte administrateur](https://cdnweb.devolutions.net/docs/RDMW6094_2024_2.png)
 
 5. Se connecter à la base de données Microsoft Azure SQL avec le compte administrateur {{ fr.RDM }}. Pour ce faire, éditer la source de données utilisée pour créer la base de données et changer les informations de connexion pour le compte administrateur que vous avez créé. ![Connexion à la base de données avec le compte administrateur](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11501.png)
 
