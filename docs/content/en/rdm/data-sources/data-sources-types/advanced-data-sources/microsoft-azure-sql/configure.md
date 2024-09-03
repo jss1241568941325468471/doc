@@ -12,6 +12,6 @@ eleventyComputed:
 
 ![Create a  Administrator Account](https://cdnweb.devolutions.net/docs/RDMW6094_2024_2.png)
 
-5. Connect on the Microsoft Azure SQL database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account that you have created. ![Connection to the Database with the  Administrator Account](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11501.png)
+5. Connect on the Microsoft Azure SQL database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account that you have created. ![Connection to the Database with the  Administrator Account](https://cdnweb.devolutions.net/docs/RDMW6095_2024_2.png)
 
 The Microsoft Azure SQL data source is now correctly configured.
