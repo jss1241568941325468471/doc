@@ -24,8 +24,8 @@ In the ***General*** tab, enter a name for the configuration:
 
 ![General tab](https://cdnweb.devolutions.net/docs/DVLS4052_2024_2.png "General tab")
 
-Fill in the required informations about the remote machine in the ***Propagation properties*** tab:
+Fill in the required informations about the {% var, "DVLS" false %} in the ***Propagation properties*** tab:
 
-<table><thead><tr><th><p>FIELD</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>DevolutionsServerUrl</p></td><td><p></p></td></tr><tr><td><p>ApplicationKey</p></td><td><p></p></td></tr><tr><td><p>ApplicationSecret</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Id</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Name</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>FIELD</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>DevolutionsServerUrl</strong></p></td><td><p></p></td></tr><tr><td><p><strong>ApplicationKey</strong></p></td><td><p></p></td></tr><tr><td><p><strong>ApplicationSecret</strong></p></td><td><p></p></td></tr><tr><td><p><strong>{% var, "VLT_MAJ" false %}Id</strong></p></td><td><p></p></td></tr><tr><td><p><strong>{% var, "VLT_MAJ" false %}Name</strong></p></td><td><p></p></td></tr><tr><td><p><strong>RunAsPassword</strong></p></td><td><p></p></td></tr><tr><td><p><strong>PSSessionConfigurationName</strong></p></td><td><p></p></td></tr></tbody></table>
 
 &nbsp;
