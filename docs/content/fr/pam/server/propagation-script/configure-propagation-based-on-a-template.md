@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title:
   description:
@@ -24,8 +24,8 @@ Dans l'onglet ***Général***, entrer un nom pour la configuration :
 
 ![Onglet Général](https://cdnweb.devolutions.net/docs/DVLS4052_2024_2.png "Onglet Général")
 
-Remplir les informations requises concernant la machine distante dans l'onglet ***Propriétés de propagation*** :
+Remplir les informations requises concernant le {% var, "DVLS" false %} dans l'onglet ***Propriétés de propagation*** :
 
-<table><thead><tr><th><p>CHAMP</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>DevolutionsServerUrl</p></td><td><p></p></td></tr><tr><td><p>ApplicationKey</p></td><td><p></p></td></tr><tr><td><p>ApplicationSecret</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Id</p></td><td><p></p></td></tr><tr><td><p>{% var, "VLT_MAJ" false %}Name</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>CHAMP</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>DevolutionsServerUrl</strong></p></td><td><p></p></td></tr><tr><td><p><strong>ApplicationKey</strong></p></td><td><p></p></td></tr><tr><td><p><strong>ApplicationSecret</strong></p></td><td><p></p></td></tr><tr><td><p><strong>{% var, "VLT_MAJ" false %}Id</strong></p></td><td><p></p></td></tr><tr><td><p><strong>{% var, "VLT_MAJ" false %}Name</strong></p></td><td><p></p></td></tr><tr><td><p><strong>RunAsPassword</strong></p></td><td><p></p></td></tr><tr><td><p><strong>PSSessionConfigurationName</strong></p></td><td><p></p></td></tr></tbody></table>
 
 &nbsp;
