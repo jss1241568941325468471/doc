@@ -1,16 +1,16 @@
 ---
+_schema: default
 eleventyComputed:
   title: Propagation de mot de passe
   description: La propagation de mot de passe permet de propager la réinitialisation des mots de passe des comptes privilégiés aux services des serveurs distants.
-_schema: default
 ---
-***Propagation de mot de passe*** permet de propager la réinitialisation des mots de passe des comptes privilégiés aux services des serveurs distants. Ce sujet couvre la [Propagation par script](#propagation-par-script) et la [Propagation spécifique à Active Directory](#propagation-specifique-a-active-directory).
+***Propagation de mot de passe*** permet de propager la réinitialisation des mots de passe des comptes privilégiés aux services des serveurs distants. Ce sujet couvre la [Propagation par script](#propagation-par-script) et la [Propagation spécifique à Active Directory](#propagation-spécifique-à-active-directory).
 
 {% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=225' %}
 
 ## Propagation par script
 
-Les sections suivantes décrivent les propriétés de la ***Propagation*** par script au sein de la solution de Gestion des Accès Privilégiés. La section [Étapes](#etapes-avec-modele) explique comment configurer cette fonctionnalité en utilisant un modèle Devolutions, mais il est également possible de [Créer un modèle](#creer-un-modele-powershell).
+Les sections suivantes décrivent les propriétés de la ***Propagation*** par script au sein de la solution de Gestion des Accès Privilégiés. La section [Étapes](#étapes-avec-modèle) explique comment configurer cette fonctionnalité en utilisant un modèle Devolutions, mais il est également possible de [Créer un modèle](#créer-un-modèle-powershell).
 
 {% snippet, "badgeInfo" %}
 Cette méthode couvre tous les fournisseurs de comptes PAM.
@@ -43,7 +43,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
            {% endsnippet %}
 21. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre. ![Bouton OK](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png)
     {% snippet, "badgeInfo" %}
-           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le nouveau fichier créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
+           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le fichier nouvellement créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
            {% endsnippet %}
 
 ### Créer un modèle PowerShell
