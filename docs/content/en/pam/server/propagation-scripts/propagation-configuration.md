@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Create a new configuration
+  title: Create and apply a new configuration
   description:
   status:
   keywords:
