@@ -33,6 +33,6 @@ Ensure that the users or groups have the necessary permissions to operate with r
 3. Enable the [offline mode](/rdm/concepts/intermediate-concepts/offline/) by clicking ***File - Go offline***.
 4. The {% var, "DVLS" false %} [data source](/concepts/basic-concepts/data-sources/) is now available in offline mode.
 
-To learn more about the ***offline mode*** in {% var, "RDM" false %}, [click here](/rdm/data-sources/offline-mode/)
+To learn more about the ***offline mode*** in {% var, "RDM" false %}, [click here](/rdm/data-sources/offline-mode/).
 
 &nbsp;
