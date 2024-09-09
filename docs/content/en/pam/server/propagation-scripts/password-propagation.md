@@ -35,18 +35,18 @@ This method covers all PAM account providers.
 10. Select the desired template and click on ***Select***. ![Select button](https://cdnweb.devolutions.net/docs/DVLS4055_2024_2.png "Select button")
 11. In the ***General*** tab, name this configuration.
 12. In the ***Propagation properties*** tab, enter the information for the remote machine.
-13. In the ***Property mapping*** tab, click on ***Configure a PAM entry*** to select a privileged account type. ![Configure a PAM entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0103.png)
+13. In the ***Property mapping*** tab, click on ***Configure a PAM entry*** to select a privileged account type. ![Configure a PAM entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0103.png "Configure a PAM entry")
 14. Click on ***Continue***.
 15. Select the fields of the account (or provider) to associate with the variables and click ***Save***.
-16. Click ***Save*** to save this new configuration and close the window. ![Save button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0104.png)
+16. Click ***Save*** to save this new configuration and close the window. ![Save button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0104.png "Save button")
 17. Go to the ***Privileged access*** tab and select an account type previously configured with ***Propagation***.
 18. Click on ***Edit***.
-19. Go to the ***Propagation*** tab and click on the "***\+***" button. ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png)
+19. Go to the ***Propagation*** tab and click on the "***\+***" button. ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png "+ button")
 20. Select the configuration to link to that account, and click ***Confirm***.
 
     &nbsp;
 
-    ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png)
+    ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png "Confirm button")
 
     &nbsp;
 
@@ -56,7 +56,7 @@ This method covers all PAM account providers.
 
 21. Click ***OK*** to save the changes and close the window.
 
-    ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png)
+    ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png "OK button")
 
     <br>{% snippet, "badgeInfo" %}To test if the link is successful, click on ***More*** and then ***Reset password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.{% endsnippet %}
 
@@ -66,7 +66,7 @@ This method covers all PAM account providers.
 The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/server/kb/how-to-articles/winrm-trustedhostslist/) article.
 {% endsnippet %} {% snippet, "badgeCaution" %}This ***Password propagation*** feature is only available for Domain accounts.{% endsnippet %}
 
-The following section describes the properties of the Active Directory ***Password propagation*** feature within the Privileged Access Management solution. ![Password Propagation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
+The following section describes the properties of the Active Directory ***Password propagation*** feature within the Privileged Access Management solution. ![Password propagation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png "Password propagation")
 
 ### Properties
 
