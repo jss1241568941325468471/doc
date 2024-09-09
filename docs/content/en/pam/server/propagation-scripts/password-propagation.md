@@ -24,7 +24,10 @@ This method covers all PAM account providers.
 2. Log in to {{ en.DVLS }} with an administrator account.
 3. Go to ***Administration*** – ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***. ![Propagation (preview)](https://cdnweb.devolutions.net/docs/DVLS4054_2024_2.png "Propagation &#40;preview&#41;")
 4. Click on ***Script Templates***. ![Script templates icon](https://cdnweb.devolutions.net/docs/DVLS4042_2024_2.png "Script templates icon")
-5. Click on ***Import***. ![Import icon](https://cdnweb.devolutions.net/docs/DVLS4043_2024_2.png "Import icon")
+5. Click on ***Import***.
+
+   ![Import icon](https://cdnweb.devolutions.net/docs/DVLS4043_2024_2.png "Import icon")
+
 6. Select the previously downloaded template .json file and click ***Import***. ![Import button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0099.png "Import button")
 7. Click ***Save***. ![Save button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0100.png "Save button")
 8. Go back to the ***Propagation (Preview)*** page.
@@ -67,41 +70,4 @@ The following section describes the properties of the Active Directory ***Passwo
 
 ### Properties
 
-<table>
-    <thead>
-      <tr>
-        <th>
-          <p>OPTION</p>
-        </th>
-        <th>
-          <p>DESCRIPTION</p>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <p><strong>Computers</strong></p>
-        </td>
-        <td>
-          <p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Computer name</strong></p>
-        </td>
-        <td>
-          <p>Name of each computer on which the password propagation will take place.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Browse domain containers</strong></p>
-        </td>
-        <td>
-          <p>Browse the domain to select the computers.</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Computers</strong></p></td><td><p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p></td></tr><tr><td><p><strong>Computer name</strong></p></td><td><p>Name of each computer on which the password propagation will take place.</p></td></tr><tr><td><p><strong>Browse domain containers</strong></p></td><td><p>Browse the domain to select the computers.</p></td></tr></tbody></table>
