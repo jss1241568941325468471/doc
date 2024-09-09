@@ -3,7 +3,7 @@ _schema: default
 eleventyComputed:
   title: Settings
 ---
-Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the {% var, "DVLS" false %} data source in {% var, "RDM" false %}. The data source also needs to be configured to permit offline mode. There are multiple modes available. ![User Groups - Settings](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8012.png)
+Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the {% var, "DVLS" false %} data source in {% var, "RDM" false %}. The data source also needs to be configured to permit offline mode. There are multiple modes available. ![User Groups - Settings](https://cdnweb.devolutions.net/docs/DVLS6082_2024_2.png)
 
 ## Settings
 
