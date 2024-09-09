@@ -1,26 +1,26 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title: Raccourcis clavier
   description: Voici les raccourcis clavier par défaut pour diverses commandes.
 ---
-{% gTab, "Windows" %}Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Paramètres – Interface utilisateur – Clavier***.
+{% gTab, "Windows" %}Voici les raccourcis clavier par défaut pour diverses commandes. Modifier ceux-ci dans ***Fichier – Paramètres – Interface utilisateur – Clavier***.
 
-Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** ramène les raccourcis à leurs valeurs par défaut.
+Le bouton ***Désactiver tout*** permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** rétablit les raccourcis à leurs valeurs par défaut.
 
-{% snippet, "badgeCaution" %}Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effaceront vos raccourcis personnalisés. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
+{% snippet, "badgeCaution" %}Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effaceront vos raccourcis personnalisés. Utiliser ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}Visitez [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
+{% snippet, "badgeHelp" %}En savoir plus sur [la personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
 
 ![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
-{% gTab, "macOS" %}Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
+{% gTab, "macOS" %}Voici les raccourcis clavier par défaut pour diverses commandes. Modifier ceux-ci dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
 
-Le bouton ***Réinitialiser*** annule toutes les modifications de raccourcis qui n'ont pas encore été enregistrées. Le bouton ***Restaurer les valeurs par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.
+Le bouton ***Réinitialiser*** annule toute modification de raccourci non encore enregistrée. Le bouton ***Restaurer les valeurs par défaut*** rétablit tous les raccourcis à leurs valeurs par défaut.
 
-{% snippet "badgeCaution" %}Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non enregistrées. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
+{% snippet "badgeCaution" %}Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non enregistrées. Utiliser ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}Visitez [Personnalisation des raccourcis clavier dans Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
+{% snippet, "badgeInfo" %}En savoir plus sur [la personnalisation des raccourcis clavier dans Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
 
 ![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png "Raccourcis clavier"){% endgTab %}
 
@@ -110,7 +110,7 @@ Le bouton ***Réinitialiser*** annule toutes les modifications de raccourcis qui
 <tr><td><p>Récent</p></td><td><p><kbd>F10</kbd></p></td></tr>
 <tr><td><p>Barre d'état</p></td><td><p><kbd>Alt</kbd> + <kbd>F7</kbd></p></td></tr>
 <tr><td><p>Barre d'onglets</p></td><td><p><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>F6</kbd></p></td></tr>
-<tr><td><p>Volet de groupe d'onglets</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F9</kbd></p></td></tr>
+<tr><td><p>Volet du groupe d'onglets</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F9</kbd></p></td></tr>
 <tr><td><p>Liste des onglets</p></td><td><p><kbd>Ctrl</kbd> + <kbd>F9</kbd></p></td></tr>
 <tr><td><p>Volet supérieur (Ruban/Barre de menus)</p></td><td><p><kbd>Alt</kbd> + <kbd>F11</kbd></p></td></tr>
 <tr><td><p>Coffre de l'utilisateur</p></td><td><p><kbd>F7</kbd></p></td></tr>
@@ -165,7 +165,7 @@ Le bouton ***Réinitialiser*** annule toutes les modifications de raccourcis qui
 ### Fenêtre{#window-macos}
 
 <table><thead><tr><th><p>Nom</p></th><th><p>Raccourci</p></th></tr></thead><tbody>
-<tr><td><p>Réduire</p></td><td><p><kbd>Cmd</kbd> + <kbd>M</kbd></p></td></tr>
+<tr><td><p>Minimiser</p></td><td><p><kbd>Cmd</kbd> + <kbd>M</kbd></p></td></tr>
 <tr><td><p>Sélectionner l'onglet suivant</p></td><td><p><kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>Droite</kbd></p></td></tr>
 <tr><td><p>Sélectionner l'onglet précédent</p></td><td><p><kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>Gauche</kbd></p></td></tr>
 <tr><td><p>Aller au signet 1</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>1</kbd></p></td></tr>
