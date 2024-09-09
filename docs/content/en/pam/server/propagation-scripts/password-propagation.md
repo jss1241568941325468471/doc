@@ -44,21 +44,23 @@ This method covers all PAM account providers.
 19. Go to the ***Propagation*** tab and click on the "***\+***" button. ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png "+ button")
 20. Select the configuration to link to that account, and click ***Confirm***.
 
-    &nbsp;
+   
 
-    ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png "Confirm button")
+  ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png "Confirm button")
 
-    &nbsp;
+  
 
-    {% snippet, "badgeInfo" %}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            It is possible to select multiple configurations.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {% endsnippet %}
+{% snippet, "badgeInfo" %}
+It is possible to select multiple configurations.
+{% endsnippet %}
 
 21. Click ***OK*** to save the changes and close the window.
 
     ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png "OK button")
 
-    <br>{% snippet, "badgeInfo" %}To test if the link is successful, click on ***More*** and then ***Reset password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.{% endsnippet %}
+{% snippet, "badgeInfo" %}
+To test if the link is successful, click on ***More*** and then ***Reset password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.
+{% endsnippet %}
 
 ## Active Directory specific propagation
 
