@@ -3,7 +3,7 @@ _schema: défaut
 eleventyComputed:
   title: Paramètres
 ---
-Permettre au groupe d'utilisateurs d'activer le [Mode Hors Ligne](/rdm/windows/data-sources/offline-mode/) sur la source de données {% var, "DVLS" false %} dans {% var, "RDM" false %}. La source de données doit également être configurée pour permettre le mode hors ligne. Plusieurs modes sont disponibles. ![Groupes d'utilisateurs - Paramètres](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8012.png)
+Permettre au groupe d'utilisateurs d'activer le [Mode Hors Ligne](/rdm/windows/data-sources/offline-mode/) sur la source de données {% var, "DVLS" false %} dans {% var, "RDM" false %}. La source de données doit également être configurée pour permettre le mode hors ligne. Plusieurs modes sont disponibles. ![Groupes d'utilisateurs - Paramètres](https://cdnweb.devolutions.net/docs/DVLS6082_2024_2.png)
 
 ## Paramètres
 
