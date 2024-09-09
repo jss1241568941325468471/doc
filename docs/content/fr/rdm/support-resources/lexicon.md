@@ -2,12 +2,13 @@
 _schema: défaut
 eleventyComputed:
   title: Lexique
+  description: Voici les principaux concepts qu'il est important de comprendre pour utiliser {% var, "RDM" false %} à son plein potentiel.
 ---
 {% var, "RDM" false %} est un logiciel qui possède un ensemble étendu de fonctionnalités. Voici les principaux concepts qu'il est important de comprendre pour utiliser le programme à son plein potentiel.
 
 ## Connexion{#connection}
 
-Tout type d'entrée qui vous permet de vous connecter à un hôte distant, un service ou un appareil est une connexion. Une adresse IP ou un nom d'hôte est normalement utilisé ainsi que des identifiants.
+Tout type d'entrée qui permet de se connecter à un hôte distant, un service ou un appareil est une connexion. Une adresse IP ou un nom d'hôte est normalement utilisé ainsi que des identifiants.
 
 ## Entrée d'identifiants{#credential-entry}
 
@@ -23,8 +24,8 @@ Tous les éléments de votre source de données sont des entrées. Il en existe 
 
 ## Entrée d'information{#information-entry}
 
-Une entrée d'information peut contenir divers éléments comme des informations de compte, des courriels et des numéros de série. Contrairement aux entrées d'identifiants, les entrées d'information sont destinées à être partagées. Par conséquent, les données dans les entrées d'information ne sont pas chiffrées. Son utilisation principale dans {% var, "RDM" false %} est de contenir des informations de site Web, de l'URL aux identifiants. Cela permet une connexion automatique sur le site Web spécifié.
+Une entrée d'information peut contenir divers éléments tels que des informations de compte, des courriels et des numéros de série. Contrairement aux entrées d'identifiants, les entrées d'information sont destinées à être partagées. Par conséquent, les données dans les entrées d'information ne sont pas chiffrées. Son utilisation principale dans {% var, "RDM" false %} est de contenir des informations de site Web, de l'URL aux identifiants. Cela permet une connexion automatique sur le site Web spécifié.
 
 ## Session{#session}
 
-Aux débuts de {% var, "RDM" false %}, il était principalement destiné à gérer Microsoft Remote Desktop. Une session était un terme utilisé à l'époque pour décrire une connexion aux services Bureau à distance de Microsoft. Il apparaît largement dans notre documentation. Toute technologie qui se connecte et qui nécessite d'utiliser l'authentification est une session.
+Aux débuts de {% var, "RDM" false %}, il était principalement destiné à gérer Microsoft Remote Desktop. Une session était un terme utilisé à l'époque pour décrire une connexion aux services Microsoft Remote Desktop. Il apparaît largement dans notre documentation. Toute technologie qui se connecte et qui nécessite d'utiliser l'authentification est une session.
