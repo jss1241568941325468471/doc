@@ -48,12 +48,10 @@ This method covers all PAM account providers.
 
 {% snippet, "badgeNotice" %}
 The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/server/kb/how-to-articles/winrm-trustedhostslist/) article.
-{% endsnippet %} {% snippet, "badgeCaution" %}
-This ***Password Propagation*** feature is only available for Domain accounts.
-{% endsnippet %}
+{% endsnippet %} {% snippet, "badgeCaution" %}This ***Password propagation*** feature is only available for Domain accounts.{% endsnippet %}
 
-The following section describes the properties of the Active Directory ***Password Propagation*** feature within the Privileged Access Management solution. ![Password Propagation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
+The following section describes the properties of the Active Directory ***Password propagation*** feature within the Privileged Access Management solution. ![Password Propagation](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
 
 ### Properties
 
-\| Option                     \| Description                                                                                      \| \|----------------------------\|--------------------------------------------------------------------------------------------------\| \| ***Computers***                       \| ***Inherited***: Inherits the computer's list from the parent's folder.<br>***Custom***: Set a custom list of computers.<br>***Custom + Inherited***: Inherits the computer's list from the parent's folder and set a custom list of computers.                                                          \| \| ***Computer name***                  \| Name of each computer on which the password propagation will take place.                                                          \| \| ***Browse domain containers***             \| Browse the domain to select the computers         \|
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Computers</strong></p></td><td><p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p></td></tr><tr><td><p><strong>Computer name</strong></p></td><td><p>Name of each computer on which the password propagation will take place.</p></td></tr><tr><td><p><strong>Browse domain containers</strong></p></td><td><p>Browse the domain to select the computers.</p></td></tr></tbody></table>
