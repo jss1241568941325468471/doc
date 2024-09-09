@@ -3,6 +3,7 @@ eleventyComputed:
   title: Propagation de mot de passe
   description: >-
     La propagation de mot de passe permet de propager la réinitialisation des mots de passe des comptes privilégiés aux services des serveurs distants.
+_schema: default
 ---
 ***Propagation de mot de passe*** permet de propager la réinitialisation des mots de passe des comptes privilégiés aux services des serveurs distants. Ce sujet couvre [Propagation par script](#propagation-par-script) et [Propagation spécifique à Active Directory](#propagation-specifique-a-active-directory).
 
@@ -10,7 +11,7 @@ eleventyComputed:
 
 ## Propagation par script
 
-Les sections suivantes décrivent les propriétés de la fonctionnalité de ***Propagation*** par script au sein de la solution de gestion des accès privilégiés. La section [Étapes](#etapes-avec-modele) explique comment configurer cette fonctionnalité en utilisant un modèle Devolutions, mais il est également possible de [Créer un modèle](#creer-un-modele-powershell).
+Les sections suivantes décrivent les propriétés de la fonctionnalité de ***Propagation*** par script au sein de la solution de Gestion des Accès Privilégiés. La section [Étapes](#etapes-avec-modele) explique comment configurer cette fonctionnalité en utilisant un modèle Devolutions, mais il est également possible de [Créer un modèle](#creer-un-modele-powershell).
 
 {% snippet, "badgeInfo" %}
 Cette méthode couvre tous les fournisseurs de comptes PAM.
@@ -27,7 +28,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 7. Cliquer sur ***Enregistrer***. ![Bouton d'enregistrement](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0100.png "Bouton d'enregistrement")
 8. Retourner à la page ***Propagation (Aperçu)***.
 9. Cliquer sur ***Ajouter***. ![Bouton Ajouter](https://cdnweb.devolutions.net/docs/DVLS4049_2024_2.png "Bouton Ajouter")
-10. Sélectionner le modèle souhaité et cliquer sur ***Sélectionner***. ![Bouton Sélectionner](https://cdnweb.devolutions.net/docs/DVLS4055_2024_2.png "Bouton Sélectionner")
+10. Sélectionner le modèle désiré et cliquer sur ***Sélectionner***. ![Bouton Sélectionner](https://cdnweb.devolutions.net/docs/DVLS4055_2024_2.png "Bouton Sélectionner")
 11. Dans l'onglet ***Général***, nommer cette configuration.
 12. Dans l'onglet ***Propriétés de propagation***, entrer les informations pour la machine distante.
 13. Dans l'onglet ***Mappage des propriétés***, cliquer sur ***Configurer une entrée PAM*** pour sélectionner un type de compte privilégié. ![Configurer une entrée PAM](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0103.png)
@@ -45,13 +46,11 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 ## Propagation spécifique à Active Directory
 
 {% snippet, "badgeNotice" %}
-Le WinRM doit être correctement configuré comme décrit dans l'article [WinRM et Liste des hôtes de confiance](/server/kb/how-to-articles/winrm-trustedhostslist/).
-{% endsnippet %} {% snippet, "badgeCaution" %}
-Cette fonctionnalité de ***Propagation de mot de passe*** est uniquement disponible pour les comptes de domaine.
-{% endsnippet %}
+Le WinRM doit être correctement configuré comme décrit dans l'article [WinRM et Liste des Hôtes de Confiance](/server/kb/how-to-articles/winrm-trustedhostslist/).
+{% endsnippet %} {% snippet, "badgeCaution" %}Cette fonctionnalité de ***Propagation de mot de passe*** est uniquement disponible pour les comptes de domaine.{% endsnippet %}
 
-La section suivante décrit les propriétés de la fonctionnalité de ***Propagation de mot de passe*** Active Directory au sein de la solution de gestion des accès privilégiés. ![Propagation de mot de passe](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
+La section suivante décrit les propriétés de la fonctionnalité de ***Propagation de mot de passe*** Active Directory au sein de la solution de Gestion des Accès Privilégiés. ![Propagation de mot de passe](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8174.png)
 
 ### Propriétés
 
-\| Option                     \| Description                                                                                      \| \|----------------------------\|--------------------------------------------------------------------------------------------------\| \| ***Ordinateurs***                       \| ***Hérité***: Hérite de la liste des ordinateurs du dossier parent.<br>***Personnalisé***: Définir une liste personnalisée d'ordinateurs.<br>***Personnalisé + Hérité***: Hérite de la liste des ordinateurs du dossier parent et définir une liste personnalisée d'ordinateurs.                                                          \| \| ***Nom de l'ordinateur***                  \| Nom de chaque ordinateur sur lequel la propagation du mot de passe aura lieu.                                                          \| \| ***Parcourir les conteneurs de domaine***             \| Parcourir le domaine pour sélectionner les ordinateurs         \|
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Ordinateurs</strong></p></td><td><p><em><strong>Hérité</strong></em>: Hérite de la liste des ordinateurs du dossier parent.<br /><br /><em><strong>Personnalisé</strong></em>: Définir une liste personnalisée d'ordinateurs.<br /><br /><em><strong>Personnalisé + Hérité</strong></em>: Hérite de la liste des ordinateurs du dossier parent et définit une liste personnalisée d'ordinateurs.</p></td></tr><tr><td><p><strong>Nom de l'ordinateur</strong></p></td><td><p>Nom de chaque ordinateur sur lequel la propagation du mot de passe aura lieu.</p></td></tr><tr><td><p><strong>Parcourir les conteneurs de domaine</strong></p></td><td><p>Parcourir le domaine pour sélectionner les ordinateurs.</p></td></tr></tbody></table>
