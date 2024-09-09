@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title: Tutoriels
   description: Nos tutoriels sont publiés sur la chaîne YouTube de Devolutions.

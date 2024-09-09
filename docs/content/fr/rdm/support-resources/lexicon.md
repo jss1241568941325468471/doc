@@ -24,7 +24,7 @@ Tous les éléments de votre source de données sont des entrées. Il en existe 
 
 ## Entrée d'information{#information-entry}
 
-Une entrée d'information peut contenir divers éléments tels que des informations de compte, des courriels et des numéros de série. Contrairement aux entrées d'identifiants, les entrées d'information sont destinées à être partagées. Par conséquent, les données dans les entrées d'information ne sont pas chiffrées. Son utilisation principale dans {% var, "RDM" false %} est de contenir des informations de site Web, de l'URL aux identifiants. Cela permet une connexion automatique sur le site Web spécifié.
+Une entrée d'information peut contenir divers éléments comme des informations de compte, des courriels et des numéros de série. Contrairement aux entrées d'identifiants, les entrées d'information sont destinées à être partagées. Par conséquent, les données dans les entrées d'information ne sont pas chiffrées. Son utilisation principale dans {% var, "RDM" false %} est de contenir des informations de site Web, de l'URL aux identifiants. Cela permet une connexion automatique sur le site Web spécifié.
 
 ## Session{#session}
 
