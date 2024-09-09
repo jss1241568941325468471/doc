@@ -5,16 +5,16 @@ eleventyComputed:
     dans Remote Desktop Manager
   description: >-
     Configurer le mode hors ligne dans {{ fr.DVLS }} permet aux utilisateurs ou
-    groupes d'accéder aux ressources sans nécessiter de connexion Internet
+    aux groupes d'accéder aux ressources sans nécessiter une connexion Internet
     continue.
 
 
     Configurer le mode hors ligne dans {{ fr.DVLS }} permet aux utilisateurs ou
-    groupes d'accéder aux ressources sans nécessiter de connexion Internet
+    aux groupes d'accéder aux ressources sans nécessiter une connexion Internet
     continue lors de l'utilisation d'une source de données {{ fr.DVLS }} dans
     {{ fr.RDM}}.
 ---
-Configurer le ***mode hors ligne*** permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter de connexion Internet continue lors de l'utilisation d'une {{ fr.DVLS }} [source de données](/rdm/concepts/basic-concepts/data-sources/) dans {% var, "RDM" false %}.
+Configurer le ***mode hors ligne*** permet aux utilisateurs ou aux groupes d'accéder aux ressources sans nécessiter une connexion Internet continue lors de l'utilisation d'une {{ fr.DVLS }} [source de données](/rdm/concepts/basic-concepts/data-sources/) dans {% var, "RDM" false %}.
 
 ## Activer le mode hors ligne dans {% var, "DVLS" false %}
 
@@ -24,7 +24,7 @@ Configurer le ***mode hors ligne*** permet aux utilisateurs ou groupes d'accéde
 4. Dans le menu de modification, cliquer sur ***Paramètres***, et sélectionner le mode hors ligne approprié. ![Settings – Offline mode](https://cdnweb.devolutions.net/docs/DVLS4021_2024_1.png)
 
 {% snippet, "badgeNotice" %}
-S'assurer que les utilisateurs ou groupes ont les permissions nécessaires pour fonctionner avec une connectivité réduite, et mettre à jour et synchroniser régulièrement les paramètres lorsque la connectivité est disponible pour maintenir la sécurité et la fonctionnalité.
+S'assurer que les utilisateurs ou les groupes ont les permissions nécessaires pour fonctionner avec une connectivité réduite, et mettre à jour et synchroniser régulièrement les paramètres lorsque la connectivité est disponible pour maintenir la sécurité et la fonctionnalité.
 {% endsnippet %}
 
 ## Activer le mode hors ligne dans {% var, "RDM" false %}
@@ -33,5 +33,7 @@ S'assurer que les utilisateurs ou groupes ont les permissions nécessaires pour 
 2. Sélectionner la [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %}.
 3. Activer le [mode hors ligne](/rdm/concepts/intermediate-concepts/offline/) en cliquant sur ***Fichier - Passer hors ligne***.
 4. La [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %} est maintenant disponible en mode hors ligne.
+
+Pour en savoir plus sur le ***mode hors ligne*** dans {% var, "RDM" false %}, [cliquez ici](/rdm/data-sources/offline-mode/).
 
 &nbsp;
