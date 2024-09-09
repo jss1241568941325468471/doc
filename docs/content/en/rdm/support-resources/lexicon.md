@@ -2,6 +2,7 @@
 _schema: default
 eleventyComputed:
   title: Lexicon
+  description: Here are the major concepts that are important to understand to use {% var, "RDM" false %} to its full potential.
 ---
 {% var, "RDM" false %} is a software that has an extensive set of functionalities. Here are the major concepts that are important to understand to use the program to its full potential.
 
@@ -23,7 +24,7 @@ All items in your data source are entries. There are multiple types. The entry i
 
 ## Information entry{#information-entry}
 
-An information entry can contain various items like account information, emails and serial numbers. Unlike credential entries, information entries are meant to be shared. Therefore, the data in the information entries is not encrypted. Its principal use in {% var, "RDM" false %} is to hold web site information, from the URL to the credentials. This allows auto log in on the specified web site.
+An information entry can contain various items like account information, emails and serial numbers. Unlike credential entries, information entries are meant to be shared. Therefore, the data in the information entries is not encrypted. Its principal use in {% var, "RDM" false %} is to hold web site information, from the URL to the credentials. This allows auto log in on the specified website.
 
 ## Session{#session}
 

@@ -10,7 +10,7 @@ The ***Disable All*** button allows you to disable all shortcuts. The ***Reset D
 
 {% snippet, "badgeCaution" %}Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
+{% snippet, "badgeHelp" %}Learn about [keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
 
 ![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
@@ -20,7 +20,7 @@ The ***Reset*** button undoes any shortcut custom changes that have not yet been
 
 {% snippet "badgeCaution" %}The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}Visit [Keyboard shortcut customization in Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
+{% snippet, "badgeInfo" %}Learn about [keyboard shortcut customization in Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
 
 ![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png "Keyboard shortcuts"){% endgTab %}
 
