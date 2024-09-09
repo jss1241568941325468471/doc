@@ -44,11 +44,7 @@ This method covers all PAM account providers.
 19. Go to the ***Propagation*** tab and click on the "***\+***" button. ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png "+ button")
 20. Select the configuration to link to that account, and click ***Confirm***.
 
-   
-
-  ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png "Confirm button")
-
-  
+![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png "Confirm button")
 
 {% snippet, "badgeInfo" %}
 It is possible to select multiple configurations.
