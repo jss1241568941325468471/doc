@@ -1,8 +1,8 @@
 ---
 _schema: default
 eleventyComputed:
-  title:
-  description:
+  title: Create script template
+  description: Although Devolutions propose a wide variety of PowerShell script templates, administrators can make custom ones.
   status:
   keywords:
 ---
