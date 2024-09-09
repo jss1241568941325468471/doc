@@ -39,10 +39,23 @@ This method covers all PAM account providers.
 17. Go to the ***Privileged access*** tab and select an account type previously configured with ***Propagation***.
 18. Click on ***Edit***.
 19. Go to the ***Propagation*** tab and click on the "***\+***" button. ![+ button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0105.png)
-20. Select the configuration to link to that account, and click ***Confirm***. ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png) {% snippet, "badgeInfo" %}
+20. Select the configuration to link to that account, and click ***Confirm***.
+
+    &nbsp;
+
+    ![Confirm button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0106.png)
+
+    &nbsp;
+
+    {% snippet, "badgeInfo" %}
                                                                                                                                                                                                                                                                                                                                                                                                                                                             It is possible to select multiple configurations.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {% endsnippet %}
-21. Click ***OK*** to save the changes and close the window. ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png) {% snippet, "badgeInfo" %}To test if the link is successful, click on ***More*** and then ***Reset password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.{% endsnippet %}
+
+21. Click ***OK*** to save the changes and close the window.
+
+    ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png)
+
+    <br>{% snippet, "badgeInfo" %}To test if the link is successful, click on ***More*** and then ***Reset password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.{% endsnippet %}
 
 ## Active Directory specific propagation
 
@@ -54,4 +67,41 @@ The following section describes the properties of the Active Directory ***Passwo
 
 ### Properties
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Computers</strong></p></td><td><p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p></td></tr><tr><td><p><strong>Computer name</strong></p></td><td><p>Name of each computer on which the password propagation will take place.</p></td></tr><tr><td><p><strong>Browse domain containers</strong></p></td><td><p>Browse the domain to select the computers.</p></td></tr></tbody></table>
+<table>
+    <thead>
+      <tr>
+        <th>
+          <p>OPTION</p>
+        </th>
+        <th>
+          <p>DESCRIPTION</p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Computers</strong></p>
+        </td>
+        <td>
+          <p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Computer name</strong></p>
+        </td>
+        <td>
+          <p>Name of each computer on which the password propagation will take place.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Browse domain containers</strong></p>
+        </td>
+        <td>
+          <p>Browse the domain to select the computers.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
