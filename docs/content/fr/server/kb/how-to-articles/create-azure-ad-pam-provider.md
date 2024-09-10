@@ -13,7 +13,7 @@ Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur 
 ![Microsoft Entra ID](https://cdnweb.devolutions.net/docs/DVLS6085_2024_2.png)
 1. Dans ***App registrations***, cliquer sur ***New registration***.
 ![App registrations – New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2133.png)
-1. Définir le ***Name*** de votre application.
+1. Définir le ***Nom*** de votre application.
 ![Register an application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2291.png)
 1. Cliquer sur ***Register*** en bas lorsque terminé.
 ![Set the Name and click Register](https://cdnweb.devolutions.net/docs/DVLS6087_2024_2.png)
@@ -24,11 +24,11 @@ Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur 
 ![Administration – Privileged Access – Providers – Add](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2134.png)
 1. Sélectionner ***Azure AD User*** comme nouveau fournisseur PAM, puis cliquer sur ***Continue***.
 ![Add New PAM Provider – Azure AD User](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8065.png)
-1. Dans la fenêtre ***Provider***, entrer un ***Name*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau fournisseur PAM utilisateur Azure AD. Si besoin, sélectionner un ***Password template*** dans la liste déroulante.
+1. Dans la fenêtre ***Provider***, entrer un ***Nom*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau fournisseur PAM utilisateur Azure AD. Si besoin, sélectionner un ***Password template*** dans la liste déroulante.
 ![Name, Description, and Password template](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2135.png)
 
 #### Dans le portail Azure
-10. Dans l'***Overview*** de votre nouvelle inscription d'application, copier l'***ID de répertoire (tenant)***.
+10. Dans l'***Overview*** de votre nouvelle inscription d'application, copier l'***ID de répertoire (locataire)***.
 ![Copy the Directory (tenant) ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2136.png)
 
 #### Dans {{ fr.DVLS }}
@@ -49,7 +49,7 @@ Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur 
 1. Dans la fenêtre ***Add a client secret***, entrer une ***Description*** et sélectionner une date d'expiration pour ce secret client, selon vos meilleures pratiques de sécurité internes.
 ![Add a client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2140.png)
 1. Cliquer sur ***Add***.
-1. Copier la ***Value*** de ce nouveau secret client en cliquant sur l'icône ***Copy to clipboard*** à côté.
+1. Copier la ***Valeur*** de ce nouveau secret client en cliquant sur l'icône ***Copy to clipboard*** à côté.
 ![Copy the Client Secret Value](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8067.png)
 
 #### Dans {{ fr.DVLS }}
@@ -93,11 +93,11 @@ Attribuer des permissions API comme décrit dans les étapes 20 à 26 est utile 
 Votre nouvelle affectation devrait maintenant être affichée dans ***Assignments***.
 
 #### Dans {{ fr.DVLS }}
-31. Les dernières étapes sont dédiées à la configuration d'un scan pour ce fournisseur. Dans la fenêtre ***Scan Configuration*** qui est apparue lorsque vous avez enregistré la configuration de votre fournisseur à l'étape 19, sous ***General***, entrer un ***Name*** pour cette configuration.
+31. Les dernières étapes sont dédiées à la configuration d'un scan pour ce fournisseur. Dans la fenêtre ***Scan Configuration*** qui est apparue lorsque vous avez enregistré la configuration de votre fournisseur à l'étape 19, sous ***General***, entrer un ***Nom*** pour cette configuration.
 ![Scan Configuration Name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2144.png)
 1. Sous ***Configuration***, sélectionner ***Groups*** ou ***Roles*** dans la liste déroulante ***Search mode***. Vous pouvez filtrer le ***Search mode*** pour des groupes ou rôles Azure AD spécifiques en cliquant sur le bouton ***Edit*** à côté de la liste déroulante.
 ![Scan Configuration Search mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8077.png)
 1. Cliquer sur ***OK*** lorsque la configuration est terminée.
-1. Dans {{ fr.DVLS }}, aller à ***Administration – Privileged Access – Scan Configurations***. Si l'option ***Start Scan on Save*** a été laissée activée pendant la configuration du scan, le scan devrait avoir démarré de lui-même. Pendant le processus, la colonne ***Status*** affiche une icône de sablier à côté de l'entrée du scan.
+1. Dans {{ fr.DVLS }}, aller à ***Administration – Privileged Access – Scan Configurations***. Si l'option ***Start Scan on Save*** a été laissée activée pendant la configuration du scan, le scan devrait avoir commencé de lui-même. Pendant le processus, la colonne ***Status*** affiche une icône de sablier à côté de l'entrée du scan.
 ![Administration – Privileged Access – Scan Configurations](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2145.png)
 1. Lorsque le processus est terminé, l'icône de sablier change en une coche verte. À ce moment-là, sélectionner des comptes et les importer dans les comptes privilégiés comme tout autre type de compte privilégié.
