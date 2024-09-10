@@ -36,7 +36,7 @@ This method covers all PAM account providers.
 It is possible to select multiple configurations.
 {% endsnippet %}
 
-5\. Click ***OK*** to save the changes and close the window.
+4. Click ***OK*** to save the changes and close the window.
 
 ![OK button](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png "OK button")
 
@@ -55,5 +55,3 @@ The following section describes the properties of the Active Directory ***Passwo
 ### Properties
 
 <table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Computers</strong></p></td><td><p><em><strong>Inherited</strong></em>: Inherits the computer's list from the parent's folder.<br /><br /><em><strong>Custom</strong></em>: Set a custom list of computers.<br /><br /><em><strong>Custom + Inherited</strong></em>: Inherits the computer's list from the parent's folder and set a custom list of computers.</p></td></tr><tr><td><p><strong>Computer name</strong></p></td><td><p>Name of each computer on which the password propagation will take place.</p></td></tr><tr><td><p><strong>Browse domain containers</strong></p></td><td><p>Browse the domain to select the computers.</p></td></tr></tbody></table>
-
-&nbsp;
