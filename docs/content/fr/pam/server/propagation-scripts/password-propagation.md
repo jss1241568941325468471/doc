@@ -23,7 +23,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 6. Dans l'onglet ***Mappage des propriétés***, cliquer sur ***Configurer une entrée PAM*** pour sélectionner un type de compte privilégié. ![Configurer une entrée PAM](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0103.png "Configurer une entrée PAM")
 7. Cliquer sur ***Continuer***.
 8. Sélectionner les champs du compte (ou fournisseur) à associer aux variables et cliquer sur ***Enregistrer***.
-9. Cliquer sur ***Enregistrer*** pour enregistrer cette nouvelle configuration et fermer la fenêtre. ![Bouton Enregistrer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0104.png "Bouton Enregistrer")
+9. Cliquer sur ***Enregistrer*** pour sauvegarder cette nouvelle configuration et fermer la fenêtre. ![Bouton Enregistrer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0104.png "Bouton Enregistrer")
 
 ### Appliquer la configuration
 
@@ -37,7 +37,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 Il est possible de sélectionner plusieurs configurations.
 {% endsnippet %}
 
-5\. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre.
+4. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre.
 
 ![Bouton OK](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png "Bouton OK")
 
@@ -56,5 +56,3 @@ La section suivante décrit les propriétés de la fonctionnalité de ***propaga
 ### Propriétés
 
 <table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Ordinateurs</strong></p></td><td><p><em><strong>Hérité</strong></em>: Hérite de la liste des ordinateurs du dossier parent.<br /><br /><em><strong>Personnalisé</strong></em>: Définir une liste personnalisée d'ordinateurs.<br /><br /><em><strong>Personnalisé + Hérité</strong></em>: Hérite de la liste des ordinateurs du dossier parent et définit une liste personnalisée d'ordinateurs.</p></td></tr><tr><td><p><strong>Nom de l'ordinateur</strong></p></td><td><p>Nom de chaque ordinateur sur lequel la propagation du mot de passe aura lieu.</p></td></tr><tr><td><p><strong>Parcourir les conteneurs de domaine</strong></p></td><td><p>Parcourir le domaine pour sélectionner les ordinateurs.</p></td></tr></tbody></table>
-
-&nbsp;
