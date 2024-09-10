@@ -9,11 +9,14 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
 1. Select ***Azure Active Directory*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
 ![Azure Active Directory Service](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2132.png)
+1. Select ***Microsoft Entra ID*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
+![Microsoft Entra ID](https://cdnweb.devolutions.net/docs/DVLS6085_2024_2.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2133.png)
 1. Set the ***Name*** of your application.
 ![Register an application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2291.png)
 1. Click ***Register*** at the bottom when done.
+![Set the Name and click Register](https://cdnweb.devolutions.net/docs/DVLS6087_2024_2.png)
 
 #### In {{ en.DVLS }}
 6. Connect to your {{ en.DVLS }}.
