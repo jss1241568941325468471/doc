@@ -1,103 +1,86 @@
 ---
+_schema: default
 eleventyComputed:
   title: Créer un fournisseur PAM Azure AD
-  description: Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur Azure AD pour {{ fr.DVLS }}.
+  description: >-
+    Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur Azure AD
+    pour {{ fr.DVLS }}.
 ---
 Le guide suivant fournit les étapes pour créer un fournisseur PAM utilisateur Azure AD pour {{ fr.DVLS }}.
 
 #### Dans le portail Azure
+
 1. Dans une page de navigateur, ouvrir le [Portail Microsoft Azure AD](https://azure.microsoft.com) et se connecter à votre compte.
-1. Sélectionner ***Azure Active Directory*** dans la section ***Azure Services***. Si vous ne le voyez pas, cliquer sur ***More services*** pour faire apparaître d'autres services.
-![Azure Active Directory Service](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2132.png)
-1. Sélectionner ***Microsoft Entra ID*** dans la section ***Azure Services***. Si vous ne le voyez pas, cliquer sur ***More services*** pour faire apparaître d'autres services.
-![Microsoft Entra ID](https://cdnweb.devolutions.net/docs/DVLS6085_2024_2.png)
-1. Dans ***App registrations***, cliquer sur ***New registration***.
-![App registrations – New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2133.png)
-1. Définir le ***Name*** de votre application.
-![Register an application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2291.png)
-1. Cliquer sur ***Register*** en bas lorsque terminé.
-![Set the Name and click Register](https://cdnweb.devolutions.net/docs/DVLS6087_2024_2.png)
+2. Sélectionner ***Microsoft Entra ID*** dans la section ***Services Azure***. Si vous ne le voyez pas, cliquer sur ***Plus de services*** pour faire apparaître d'autres services. ![Microsoft Entra ID](https://cdnweb.devolutions.net/docs/DVLS6085_2024_2.png)
+3. Dans ***Enregistrements d'applications***, cliquer sur ***Nouvel enregistrement***. ![App registrations – New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2133.png)
+4. Définir le ***Nom*** de votre application. ![Register an application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2291.png)
+5. Cliquer sur ***Enregistrer*** en bas lorsque terminé. ![Set the Name and click Register](https://cdnweb.devolutions.net/docs/DVLS6087_2024_2.png)
 
 #### Dans {{ fr.DVLS }}
+
 6. Se connecter à votre {{ fr.DVLS }}.
-1. Aller à ***Administration – Privileged Access – Providers***, puis cliquer sur ***Add***.
-![Administration – Privileged Access – Providers – Add](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2134.png)
-1. Sélectionner ***Azure AD User*** comme nouveau fournisseur PAM, puis cliquer sur ***Continue***.
-![Add New PAM Provider – Azure AD User](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8065.png)
-1. Dans la fenêtre ***Provider***, entrer un ***Name*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau fournisseur PAM utilisateur Azure AD. Si besoin, sélectionner un ***Password template*** dans la liste déroulante.
-![Name, Description, and Password template](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2135.png)
+7. Aller à ***Administration – Accès Privilégié – Fournisseurs***, puis cliquer sur ***Ajouter***. ![Administration – Privileged Access – Providers – Add](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2134.png)
+8. Sélectionner ***Utilisateur Azure AD*** comme nouveau fournisseur PAM, puis cliquer sur ***Continuer***. ![Add New PAM Provider – Azure AD User](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8065.png)
+9. Dans la fenêtre ***Fournisseur***, entrer un ***Nom*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau fournisseur PAM Utilisateur Azure AD. Si besoin, sélectionner un ***Modèle de mot de passe*** dans la liste déroulante. ![Name, Description, and Password template](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2135.png)
 
 #### Dans le portail Azure
-10. Dans l'***Overview*** de votre nouvelle inscription d'application, copier l'***ID de répertoire (tenant)***.
-![Copy the Directory (tenant) ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2136.png)
+
+10. Dans l'***Aperçu*** de votre nouvel enregistrement d'application, copier l'***ID de répertoire (locataire)***. ![Copy the Directory (tenant) ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2136.png)
 
 #### Dans {{ fr.DVLS }}
-11. Coller l'ID copié à l'étape précédente dans le champ ***Tenant ID***.
-![Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2138.png)
+
+11. Coller l'ID copié à l'étape précédente dans le champ ***ID de locataire***. ![Tenant ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2138.png)
 
 #### Dans le portail Azure
-12. Toujours dans l'***Overview*** de votre nouvelle inscription d'application, copier l'***ID d'application (client)***.
-![Copy the Application (client) ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2137.png)
+
+12. Toujours dans l'***Aperçu*** de votre nouvel enregistrement d'application, copier l'***ID d'application (client)***. ![Copy the Application (client) ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2137.png)
 
 #### Dans {{ fr.DVLS }}
-13. Coller l'ID copié à l'étape précédente dans le champ ***Client ID***.
-![Client ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2139.png)
+
+13. Coller l'ID copié à l'étape précédente dans le champ ***ID client***. ![Client ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2139.png)
 
 #### Dans le portail Azure
-14. Dans ***Certificates & secrets***, cliquer sur ***Client secrets***, puis sur ***New client secret***.
-![New client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8064.png)
-1. Dans la fenêtre ***Add a client secret***, entrer une ***Description*** et sélectionner une date d'expiration pour ce secret client, selon vos meilleures pratiques de sécurité internes.
-![Add a client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2140.png)
-1. Cliquer sur ***Add***.
-1. Copier la ***Value*** de ce nouveau secret client en cliquant sur l'icône ***Copy to clipboard*** à côté.
-![Copy the Client Secret Value](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8067.png)
+
+14. Dans ***Certificats et secrets***, cliquer sur ***Secrets client***, puis sur ***Nouveau secret client***. ![New client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8064.png)
+15. Dans la fenêtre ***Ajouter un secret client***, entrer une ***Description*** et sélectionner une date d'expiration pour ce secret client, selon vos meilleures pratiques de sécurité internes. ![Add a client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2140.png)
+16. Cliquer sur ***Ajouter***.
+17. Copier la ***Valeur*** de ce nouveau secret client en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté. ![Copy the Client Secret Value](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8067.png)
 
 #### Dans {{ fr.DVLS }}
-18. Coller la valeur copiée à l'étape précédente dans le champ ***Secret key***.
-![Secret key](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8068.png)
-1. Tester la connexion pour voir si elle fonctionne, puis cliquer sur ***Save***. La fenêtre ***Scan Configuration*** apparaîtra : la garder ouverte car elle sera remplie à une étape ultérieure.
+
+18. Coller la valeur copiée à l'étape précédente dans le champ ***Clé secrète***. ![Secret key](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8068.png)
+19. Tester la connexion pour voir si elle fonctionne, puis cliquer sur ***Enregistrer***. La fenêtre ***Configuration de l'analyse*** apparaîtra : la garder ouverte car elle sera remplie à une étape ultérieure.
 
 #### Dans le portail Azure
+
 {% snippet, "badgeCaution" %}
-Attribuer des permissions API comme décrit dans les étapes 20 à 26 est utile uniquement si vous souhaitez effectuer une détection de comptes Azure (scan). Si ce n'est pas le cas, pour éviter d'attribuer des permissions inutiles à l'application, passer à l'étape 27.
+Attribuer des autorisations API comme décrit dans les étapes 20 à 26 n'est utile que si vous souhaitez effectuer une détection de comptes Azure (analyse). Si ce n'est pas le cas, pour éviter d'attribuer des autorisations inutiles à l'application, passer à l'étape 27.
 {% endsnippet %}
 
-20. Dans ***API permissions***, cliquer sur ***Add a permission***.
-![API permissions – Add a permission](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2141.png)
-1. Dans la fenêtre ***Resquest API permissions***, sélectionner ***Microsoft Graph***.
-![Microsoft Graph](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2142.png)
-1. Cliquer sur ***Application permissions***, puis cocher les cases à côté des permissions API Microsoft Graph suivantes pour les sélectionner :
+20. Dans ***Autorisations API***, cliquer sur ***Ajouter une autorisation***. ![API permissions – Add a permission](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2141.png)
+21. Dans la fenêtre ***Demande d'autorisations API***, sélectionner ***Microsoft Graph***. ![Microsoft Graph](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2142.png)
+22. Cliquer sur ***Autorisations d'application***, puis cocher les cases à côté des autorisations API Microsoft Graph suivantes pour les sélectionner :
     * ***Group.Read.All***
     * ***RoleManagement.Readwrite.Directory***
-    * ***User.Read.All***
-   ![Select API permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2143.png)
+    * ***User.Read.All*** ![Select API permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2143.png)
 
-   {% snippet, "badgeInfo" %}
-   Utiliser la barre de filtre au-dessus de la liste des permissions pour trouver celles que vous recherchez.
-   {% endsnippet %}
+    {% snippet, "badgeInfo" %}
+       Utiliser la barre de filtre au-dessus de la liste des autorisations pour trouver celles que vous recherchez.
+       {% endsnippet %}
 
-23. Lorsque toutes les permissions ci-dessus ont été sélectionnées, cliquer sur ***Add permissions*** en bas.
-1. La liste des permissions sera mise à jour pour inclure celles qui viennent d'être sélectionnées. Supprimer toutes les autres permissions inutiles en utilisant le bouton à points de suspension à côté.
-![Remove Unnecessary Permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2328.png)
-1. Les permissions nécessitent un consentement d'administrateur. Cliquer sur le bouton ***Grant admin consent for < Your Organization >***, puis cliquer sur ***Yes*** pour confirmer.
-![Grant admin consent for your organization](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2329.png)
-1. Pour confirmer que le consentement d'administrateur a été accordé, vérifier le ***Status*** de vos permissions.
-![Granted Status](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2330.png)
-1. Pour accorder à l'application la capacité de faire tourner les mots de passe, quitter les ***App registrations*** pour revenir à Azure Active Directory, puis sélectionner ***Roles and administrators*** dans le menu de gauche.
-1. Dans ***All roles***, cliquer sur le rôle ***Helpdesk Administrator***. Si les comptes gérés par le module PAM sont membres de n'importe quel rôle ou groupe d'administrateur, alors l'application a besoin du rôle ***Privileged Authentication Administrator***.
-![All roles – Helpdesk Administrator](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8072.png)
-1. Dans ***Assignments***, cliquer sur le bouton ***Add assignments***.
-![Helpdesk Administrator – Add assignments](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8073.png)
-1. Filtrer la liste pour trouver l'application Azure précédemment créée, la sélectionner, puis cliquer sur ***Add***.
-![Add assignments](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8074.png)
-Votre nouvelle affectation devrait maintenant être affichée dans ***Assignments***.
+23. Lorsque toutes les autorisations ci-dessus ont été sélectionnées, cliquer sur ***Ajouter des autorisations*** en bas.
+24. La liste des autorisations sera mise à jour pour inclure celles qui viennent d'être sélectionnées. Supprimer toutes les autres autorisations inutiles en utilisant le bouton à points de suspension à côté. ![Remove Unnecessary Permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2328.png)
+25. Les autorisations nécessitent un consentement d'administrateur. Cliquer sur le bouton ***Octroyer le consentement d'administrateur pour &lt; Votre Organisation &gt;***, puis cliquer sur ***Oui*** pour confirmer. ![Grant admin consent for your organization](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2329.png)
+26. Pour confirmer que le consentement d'administrateur a été accordé, vérifier le ***Statut*** de vos autorisations. ![Granted Status](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2330.png)
+27. Pour octroyer à l'application la capacité de faire tourner les mots de passe, quitter les ***Enregistrements d'applications*** pour revenir à Azure Active Directory, puis sélectionner ***Rôles et administrateurs*** dans le menu de gauche.
+28. Dans ***Tous les rôles***, cliquer sur le rôle ***Administrateur du support technique***. Si les comptes gérés par le module PAM sont membres de n'importe quel rôle ou groupe d'administrateur, alors l'application a besoin du rôle ***Administrateur d'authentification privilégiée***. ![All roles – Helpdesk Administrator](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8072.png)
+29. Dans ***Affectations***, cliquer sur le bouton ***Ajouter des affectations***. ![Helpdesk Administrator – Add assignments](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8073.png)
+30. Filtrer la liste pour trouver l'application Azure précédemment créée, la sélectionner, puis cliquer sur ***Ajouter***. ![Add assignments](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8074.png) Votre nouvelle affectation devrait maintenant être affichée dans ***Affectations***.
 
 #### Dans {{ fr.DVLS }}
-31. Les dernières étapes sont dédiées à la configuration d'un scan pour ce fournisseur. Dans la fenêtre ***Scan Configuration*** qui est apparue lorsque vous avez enregistré la configuration de votre fournisseur à l'étape 19, sous ***General***, entrer un ***Name*** pour cette configuration.
-![Scan Configuration Name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2144.png)
-1. Sous ***Configuration***, sélectionner ***Groups*** ou ***Roles*** dans la liste déroulante ***Search mode***. Vous pouvez filtrer le ***Search mode*** pour des groupes ou rôles Azure AD spécifiques en cliquant sur le bouton ***Edit*** à côté de la liste déroulante.
-![Scan Configuration Search mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8077.png)
-1. Cliquer sur ***OK*** lorsque la configuration est terminée.
-1. Dans {{ fr.DVLS }}, aller à ***Administration – Privileged Access – Scan Configurations***. Si l'option ***Start Scan on Save*** a été laissée activée pendant la configuration du scan, le scan devrait avoir démarré de lui-même. Pendant le processus, la colonne ***Status*** affiche une icône de sablier à côté de l'entrée du scan.
-![Administration – Privileged Access – Scan Configurations](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2145.png)
-1. Lorsque le processus est terminé, l'icône de sablier change en une coche verte. À ce moment-là, sélectionner des comptes et les importer dans les comptes privilégiés comme tout autre type de compte privilégié.
+
+31. Les dernières étapes sont dédiées à la configuration d'une analyse pour ce fournisseur. Dans la fenêtre ***Configuration de l'analyse*** qui est apparue lorsque vous avez enregistré la configuration de votre fournisseur à l'étape 19, sous ***Général***, entrer un ***Nom*** pour cette configuration. ![Scan Configuration Name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2144.png)
+32. Sous ***Configuration***, sélectionner ***Groupes*** ou ***Rôles*** dans la liste déroulante ***Mode de recherche***. Vous pouvez filtrer le ***Mode de recherche*** pour des groupes ou rôles Azure AD spécifiques en cliquant sur le bouton ***Modifier*** à côté de la liste déroulante. ![Scan Configuration Search mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8077.png)
+33. Cliquer sur ***OK*** lorsque la configuration est terminée.
+34. Dans {{ fr.DVLS }}, aller à ***Administration – Accès Privilégié – Configurations d'analyse***. Si l'option ***Démarrer l'analyse à l'enregistrement*** a été laissée activée pendant la configuration de l'analyse, l'analyse devrait avoir commencé d'elle-même. Pendant le processus, la colonne ***Statut*** affiche une icône de sablier à côté de l'entrée de l'analyse. ![Administration – Privileged Access – Scan Configurations](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2145.png)
+35. Lorsque le processus est terminé, l'icône de sablier change en une coche verte. À ce moment-là, sélectionner des comptes et les importer dans les comptes privilégiés comme tout autre type de compte privilégié.
