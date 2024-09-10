@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Import propagation script template
+  title: Import propagation template
   description: Devolutions offers pre-configured propagation script templates on its GitHub repository. These are free to download and modify, and can help administrators propagate scripts without having to create complex custom scripts and templates.
 ---
 Devolutions offers pre-configured propagation script templates on its [GitHub repository](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts). These are free to download and modify, and can help administrators propagate scripts without having to create complex custom scripts and templates.
