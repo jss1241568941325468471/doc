@@ -9,6 +9,6 @@ eleventyComputed:
 
 Related topics:
 
-* [Create script template](/pam/server/propagation-scripts/create-a-powershell-template/)
+* [Create script template](/pam/server/propagation-scripts/create-script-template/)
 * [Create and apply a new configuration](/pam/server/propagation-scripts/propagation-configuration/)
 * [Import propagation template](/pam/server/propagation-scripts/import-propagation-script-template/)
