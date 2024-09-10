@@ -13,7 +13,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
 2. Select ***Microsoft Entra ID*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear. ![Microsoft Entra ID](https://cdnweb.devolutions.net/docs/DVLS6085_2024_2.png)
 3. In ***App registrations***, click on ***New registration***. ![App registrations – New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2133.png)
-4. Set the ***Name*** of your application. ![Register an application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2291.png)
+4. Set the ***Name*** of your application.
 5. Click ***Register*** at the bottom when done. ![Set the Name and click Register](https://cdnweb.devolutions.net/docs/DVLS6087_2024_2.png)
 
 #### In {{ en.DVLS }}
@@ -65,8 +65,8 @@ Assigning API permissions as described in steps 20 to 26 is only useful if you w
     * ***User.Read.All*** ![Select API permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2143.png)
 
     {% snippet, "badgeInfo" %}
-       Use the filter bar above the permissions list to find the ones you are looking for.
-       {% endsnippet %}
+           Use the filter bar above the permissions list to find the ones you are looking for.
+           {% endsnippet %}
 
 23. When all the above permissions have been selected, click ***Add permissions*** at the bottom.
 24. The list of permissions will be updated to include those just selected. Remove any other unnecessary permissions using the ellipsis button next to them. ![Remove Unnecessary Permissions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2328.png)
