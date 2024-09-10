@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: Load from system information
   description: How to use the load from System Information in {{ en.RDM }}
@@ -11,16 +12,16 @@ The feature can be found by right-clinking on an entry and going to ***Propertie
 
 ### Supported Linux type:
 
-- Ubuntu
-- Debian
+* Ubuntu
+* Debian
 
 ### Error Bios information:
 
-- Sessions must be RDP.
-- The station must be on the same domain.
-- The credentials must be in the ***Tools*** section of the session and be accurate.
-- Test the WMI requests directly from the station to see if the communication is working.
+* Sessions must be RDP.
+* The station must be on the same domain.
+* The credentials must be in the ***Tools*** section of the session and be accurate.
+* Test the WMI requests directly from the station to see if the communication is working.
 
 ### Error getting products informations:
 
-Invalid Class WMI or WMI class is not found on Windows Server 2003. On Windows Server 2003, Win32_Product is not enabled by default. You can enable it by following the steps provided in this [Microsoft Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server).
+Invalid Class WMI or WMI class is not found on Windows Server 2003. On Windows Server 2003, Win32\_Product is not enabled by default. Learn more about <a href="https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)" title="https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)" target="_blank" rel="noopener">Win32_Product class</a>.
